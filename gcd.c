@@ -1,9 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int a, b, i, gcd;
-    printf("Enter two integers: ");
-    scanf("%d %d", &a, &b);
+    int a=18, b=24, i, gcd;
     for(i=1; i <= a && i <= b; ++i)
     {
         if(a%i==0 && b%i==0)
