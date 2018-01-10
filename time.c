@@ -6,6 +6,6 @@ printf("enter the time in minutes:");
 scanf("%f",&min);
 printf("\n");
 hour=min/60;
-printf("the given time in  %fhr %min",hour,min);
+printf("the given time in  %fhr %fmin",hour,min);
 return 0;
 }
